@@ -1,0 +1,7 @@
+<* for name, value in colors *>
+  ${{name}}_00: {{value.default.rgba | set_alpha: 0.0}};
+  ${{name}}_25: {{value.default.rgba | set_alpha: 0.25}};
+  ${{name}}_50: {{value.default.rgba | set_alpha: 0.5}};
+  ${{name}}_75: {{value.default.rgba | set_alpha: 0.75}};
+  ${{name}}: {{value.default.rgba | set_alpha: 1.0}};
+<* endfor *>

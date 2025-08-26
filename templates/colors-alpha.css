@@ -1,0 +1,17 @@
+/*
+* Css Colors
+* Generated with Matugen
+*/
+<* for name, value in colors *>
+    @define-color {{name}} {{value.default.rgba | set_alpha: 1.0}};
+    @define-color {{name}}100 {{value.default.rgba | set_alpha: 1.0}};
+    @define-color {{name}}10 {{value.default.rgba | set_alpha: 0.1}};
+    @define-color {{name}}20 {{value.default.rgba | set_alpha: 0.2}};
+    @define-color {{name}}30 {{value.default.rgba | set_alpha: 0.3}};
+    @define-color {{name}}40 {{value.default.rgba | set_alpha: 0.4}};
+    @define-color {{name}}50 {{value.default.rgba | set_alpha: 0.5}};
+    @define-color {{name}}60 {{value.default.rgba | set_alpha: 0.6}};
+    @define-color {{name}}70 {{value.default.rgba | set_alpha: 0.7}};
+    @define-color {{name}}80 {{value.default.rgba | set_alpha: 0.8}};
+    @define-color {{name}}90 {{value.default.rgba | set_alpha: 0.9}};
+<* endfor *>
